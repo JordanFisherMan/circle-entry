@@ -1,0 +1,18 @@
+.red-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 10px solid red;
+  background: red;
+  color: white;
+  position: absolute;
+  bottom: 33px;
+  right: 6px;
+  z-index: 1;
+
+  .x{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

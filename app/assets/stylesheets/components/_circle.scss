@@ -1,0 +1,14 @@
+.circle {
+  height: 310px;
+  width: 310px;
+  background-color: #7fa2b9;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0px 0px 20px 0px #00000061;
+
+  &__indicators{
+    top: 13px;
+    position: relative;
+    left: 5px;
+  }
+}

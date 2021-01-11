@@ -1,0 +1,17 @@
+.curve {
+  width: 106px;
+  height: 30px;
+  position: absolute;
+
+  &.right-left {
+    right: 46px;
+    transform: rotate(21deg);
+    top: 5px;
+  }
+
+  &.right-right {
+    right: -29px;
+    transform: rotate(66deg);
+    top: 75px;
+  }
+}

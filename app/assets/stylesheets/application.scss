@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+@import "components/circle";
+@import "components/corner";
+@import "components/curve";
+@import "components/indicator";
+@import "components/red-circle";
+
+body {
+  background-color: #246d9a;
+}
