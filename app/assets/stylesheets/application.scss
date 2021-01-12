@@ -16,9 +16,57 @@
 @import "components/circle";
 @import "components/corner";
 @import "components/curve";
+@import "components/half-block-arc";
 @import "components/indicator";
 @import "components/red-circle";
 
 body {
   background-color: #246d9a;
+}
+
+.block-arc {
+  width: 93%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  top: 7px;
+}
+
+.index {
+  &__bottom-left {
+    width: 108.81px;
+    height: 108px;
+    bottom: 8px;
+    left: 7px;
+    position: absolute;
+  }
+  &__bottom-right{
+    width: 108.81px;
+    height: 108px;
+    right: 8px;
+    position: absolute;
+    bottom: 7px;
+  }
+}
+
+.button-icon{
+  top: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+    transform: translateY(-50%);
+
+    &--sm{
+      width: 26px;
+    height: 26px;
+    }
+
+    &--lg{
+      left: -25px;
+      height: 23px;
+      width: 158px;
+    }
 }

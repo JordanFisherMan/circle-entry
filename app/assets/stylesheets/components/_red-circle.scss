@@ -2,8 +2,8 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  border: 10px solid red;
-  background: red;
+  border: 10px solid #c42f2f;
+  background: #c42f2f;
   color: white;
   position: absolute;
   bottom: 33px;
@@ -14,5 +14,10 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+  }
+
+  &.top-left-left{
+    top: 4px;
+    left: 38px;
   }
 }
